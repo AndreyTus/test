@@ -10,19 +10,25 @@ li {
     list-style: none;
 }
 
-.filter-category {
+.category {
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     padding: 0;
 }
 
-.filter-category__item-bt {
+.category__list-bt {
+    display: flex;
+    gap: 10px;
+}
+
+
+.category__item-bt {
     display: inline-block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 8px 21px;
-
+    gap: 10px;
 
     width: 96px;
     height: 31px;
@@ -41,8 +47,8 @@ li {
 
 }
 
-.filter-category__item-bt:hover,
-.filter-category__item-bt:focus {
+.category__item-bt:hover,
+.category__item-bt:focus {
     cursor: pointer;
     background-color: #4440F7;
     color: white;
