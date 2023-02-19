@@ -1,0 +1,94 @@
+body {
+    padding: 0 16px;
+    width: 1280px;
+    height: 2724px;
+
+    background: #F4F4F4;
+}
+
+li {
+    list-style: none;
+}
+
+.filter-category {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.filter-category__item-bt {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 21px;
+
+
+    width: 96px;
+    height: 31px;
+
+    border: 1px solid #4440F7;
+    border-radius: 20px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #4440F7;
+
+}
+
+.filter-category__item-bt:hover,
+.filter-category__item-bt:focus {
+    cursor: pointer;
+    background-color: #4440F7;
+    color: white;
+}
+
+.calendar-form__text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 111px;
+
+    color: #111321;
+}
+
+.calendar-btn {
+    display: flex;
+    align-items: center;
+}
+
+.calendar-form {
+    box-sizing: border-box;
+    margin-left: 37px;
+    width: 168px;
+    height: 31px;
+    border-radius: 20px;
+
+    align-items: center;
+    padding: 8px 21px;
+
+    border: 1px solid #4440F7;
+    border-radius: 20px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #4440F7;
+}
+
+.calendar-form:hover,
+.calendar-form:focus {
+    background: #4440F6;
+    color: white;
+}
